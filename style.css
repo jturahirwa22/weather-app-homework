@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .app-container {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #cityInput {
+    width: 70%;
+    padding: 5px;
+  }
+  
+  #searchBtn {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .weather-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-card.hidden {
+    display: none;
+  }
+  
+  #weatherIcon {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  #error {
+    color: red;
+  }
+  
+  .previous-searches {
+    margin-top: 30px;
+  }
+  
+  .previous-searches ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .previous-searches li {
+    padding: 5px 0;
+    cursor: pointer;
+  }
+  
